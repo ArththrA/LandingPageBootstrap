@@ -25,27 +25,6 @@ header {
     font-style: normal;
 }
 
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 10px 0;
-}
-
 #secao1 {
     background: #030637;
     padding-bottom: 5 0px;
@@ -69,126 +48,18 @@ section {
     margin-left: 50px;
 }
 
-#secao1 img {
-    position: relative;
-    margin-left: 0px;
-    padding-left: 0px;
-    border-left: 0px;
-    width: 400px;
+#textoS1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    display: flex;
+}
+
+#fotinha1 {
+    width: 25%;
     height: 400px;
-    object-fit: cover;
-    object-position: center;
-    flex: 1;
-    overflow: hidden;
-}
-
-#secao2 {
-    background: #3C0753;
-    display: flex;
-    padding-bottom: 50px;
-    font-size: 17px;
-    padding-left: 0px;
-}
-
-#secao2 div {
-    padding-left: 50px;
-    display: block;
-}
-
-#secao2 h2 {
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 300;
-    font-size: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 50px;
-}
-
-#secao2 h3 {
-    display: block;
-}
-
-#secao2 img {
-    display: flex;
-    margin-left: auto;
-    width: 300px;
-    height: 600px;
-    object-fit: cover;
-    object-position: center;
-    flex: 2;
-    margin-left: 30px;
-    align-items: stretch;
-}
-
-#secao3 {
-    background: #720455;
-    padding-bottom: 5 0px;
-    font-size: 20px;
-    padding-left: 0px;
-    display: flex;
-}
-
-#secao3 h2 {
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 300;
-    font-size: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: block;
-}
-
-#secao3 p {
-    padding-left: 50px;
-
-}
-
-#secao3 div {
-    display: block;
-    margin-left: 50px;
-}
-
-#secao3 img {
-    display: flex;
-    margin-left: auto;
-    width: 600px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-    flex: 2;
-    margin-left: 30px;
-    align-items: stretch;
-}
-
-#secao4 {
-    background: #910A67;
-    padding-bottom: 5 0px;
-    font-size: 20px;
-    padding-left: 0px;
-    display: flex;
-}
-
-#secao4 h2 {
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 300;
-    font-size: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 50px;
-}
-
-#secao4 div {
-    justify-content: space-between;
-    margin-left: 30px;
-}
-
-#secao4 .oi {
-    padding-left: 50px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #010214;
-    color: white;
-    position: relative;
+    display:flex;
 }
